@@ -7,9 +7,12 @@ This project is a three-tier distributed web-based application developed to demo
 
 ## Architecture
 
-Client Tier: The user interface is built using JSP pages, providing a dynamic and responsive user experience.  
-Business Logic Tier: Implemented using Java Servlets, the business logic is encapsulated on the server side to manage application functionality, such as user authentication, role management, and dynamic supplier status adjustments.  
-Data Storage Tier: A MySQL database serves as the backend, storing all application data, including user information, supplier details, and transaction records.
+#### Client Tier: 
+The user interface is built using JSP pages, providing a dynamic and responsive user experience.  
+#### Business Logic Tier: 
+Implemented using Java Servlets, the business logic is encapsulated on the server side to manage application functionality, such as user authentication, role management, and dynamic supplier status adjustments.  
+#### Data Storage Tier: 
+A MySQL database serves as the backend, storing all application data, including user information, supplier details, and transaction records.
 
 
 ## Features
