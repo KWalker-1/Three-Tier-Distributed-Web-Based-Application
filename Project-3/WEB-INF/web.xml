@@ -1,0 +1,75 @@
+<web-app>
+
+   <servlet>
+        <servlet-name>AuthenticationServlet</servlet-name>
+        <servlet-class>AuthenticationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AuthenticationServlet</servlet-name>
+        <url-pattern>/authenticate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExecuteQueryServlet</servlet-name>
+        <servlet-class>ExecuteQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExecuteQueryServlet</servlet-name>
+        <url-pattern>/ExecuteQueryServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>rootExecuteQueryServlet</servlet-name>
+        <servlet-class>rootExecuteQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>rootExecuteQueryServlet</servlet-name>
+        <url-pattern>/rootExecuteQueryServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AccountantApp</servlet-name>
+        <servlet-class>AccountantApp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountantApp</servlet-name>
+        <url-pattern>/AccountantApp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SuppliersInsertServlet</servlet-name>
+        <servlet-class>SuppliersInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuppliersInsertServlet</servlet-name>
+        <url-pattern>/SuppliersInsertServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PartsInsertServlet</servlet-name>
+        <servlet-class>PartsInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PartsInsertServlet</servlet-name>
+        <url-pattern>/PartsInsertServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>JobsInsertServlet</servlet-name>
+        <servlet-class>JobsInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JobsInsertServlet</servlet-name>
+        <url-pattern>/JobsInsertServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ShipmentsInsertServlet</servlet-name>
+        <servlet-class>ShipmentsInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShipmentsInsertServlet</servlet-name>
+        <url-pattern>/ShipmentsInsertServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
